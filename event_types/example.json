@@ -1,0 +1,11 @@
+{
+  "type_id": "event",
+  "description": "Tipo de evento genérico",
+  "json_schema": {
+    "type": "object",
+    "properties": {
+      "location": {"type": "string"}
+    },
+    "required": ["location"]
+  }
+}
